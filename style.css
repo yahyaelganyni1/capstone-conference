@@ -1,9 +1,7 @@
 :root {
-  /* colors */
   --darkColor: #272a31;
   --lightColor: #d3d3d3;
   --orangeColor: #ec5242;
-  /* fonts */
   --firstFont: 'COCOGOOSE', sans-serif;
   --secondFont: 'Lato', sans-serif;
 }
