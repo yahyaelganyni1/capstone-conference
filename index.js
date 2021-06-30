@@ -58,7 +58,6 @@ const speakersElment = (imgSrc, name, info) => {
   div2.appendChild(h1);
   div2.appendChild(p);
   div.appendChild(div2);
-
   speakersSection.appendChild(div);
 };
 

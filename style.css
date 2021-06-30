@@ -229,6 +229,14 @@ footer {
   padding: 2em;
 }
 
+.speaker-header {
+  color: var(--darkColor);
+  font-family: var(--firstFont);
+  font-size: 3em;
+  text-align: center;
+  background-color: rgb(85, 80, 80);
+}
+
 .speakers h1 {
   font-family: var(--firstFont);
   color: var(--orangeColor);
