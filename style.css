@@ -13,8 +13,8 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
@@ -53,6 +53,13 @@ ul {
   align-items: center;
 }
 
+footer h1 {
+  font-family: var(--firstFont);
+  color: var(--lightColor);
+  font-size: 1em;
+  text-align: center;
+}
+
 .see-past h1 {
   font-family: var(--firstFont);
   color: var(--orangeColor);
@@ -66,6 +73,7 @@ ul {
   width: 90%;
   text-align: center;
 }
+
 .imgs {
   display: flex;
   align-items: center;
@@ -76,7 +84,7 @@ ul {
 .imgs img {
   width: 50%;
   margin: 0.6em;
-  padding: 0.2;
+  padding: 0.2em;
 }
 
 /* footer */
@@ -89,17 +97,9 @@ footer {
   align-items: center;
 }
 
-footer h1 {
-  font-family: var(--firstFont);
-  color: var(--lightColor);
-  font-size: 1em;
-  text-align: center;
-}
-
 /* header styling */
 
 .dropdown-menu {
-  margin-right: auto;
   position: relative;
   margin: 0.7em;
 }
@@ -163,7 +163,7 @@ footer h1 {
   background-color: rgba(255, 0, 0, 0.13);
 }
 
-.cover:before {
+.cover::before {
   content: ' ';
   display: block;
   position: absolute;
@@ -351,7 +351,6 @@ footer h1 {
   .disktop-nav ul {
     display: flex;
     flex-direction: row;
-
     font-size: 1em;
     color: var(--darkColor);
     padding: 1em;
@@ -411,16 +410,8 @@ footer h1 {
     flex-direction: column;
   }
 
-  .speakers div p {
-    padding: 0.5em;
-  }
-
   .about p {
     width: 40%;
-  }
-
-  .see-past h1 {
-    font-size: 3em;
   }
 
   .see-past p {
@@ -428,6 +419,15 @@ footer h1 {
     width: 60%;
     text-align: center;
   }
+
+  .speakers div p {
+    padding: 0.5em;
+  }
+
+  .see-past h1 {
+    font-size: 3em;
+  }
+
   .imgs {
     display: flex;
     align-items: center;
