@@ -45,11 +45,11 @@ const speakers = [
 ];
 
 const speakersElment = (imgSrc, name, info) => {
-  let img = document.createElement('img');
+  const img = document.createElement('img');
   img.setAttribute('src', imgSrc);
-  let h1 = document.createElement('h1');
+  const h1 = document.createElement('h1');
   h1.innerHTML = name;
-  let p = document.createElement('p');
+  const p = document.createElement('p');
   p.innerHTML = info;
   const div = document.createElement('div');
   const div2 = document.createElement('div');
