@@ -378,6 +378,11 @@ footer div h3 {
   flex: 2;
 }
 
+.cover-about p {
+  text-align: center;
+  margin: 1em 2em;
+}
+
 .programs ul li p {
   color: #fff;
   margin: 0.2em;
@@ -415,11 +420,6 @@ footer div h3 {
 
 .cover-about h1 {
   padding: 2em;
-}
-
-.cover-about p {
-  text-align: center;
-  margin: 1em 2em;
 }
 
 .cover-about h6 {
