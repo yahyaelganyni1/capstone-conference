@@ -25,6 +25,14 @@ ul {
   list-style: none;
 }
 
+.contact-nav {
+  display: none;
+}
+
+.box {
+  display: none;
+}
+
 /* about page  */
 
 .about {
@@ -88,11 +96,34 @@ footer h1 {
 /* footer */
 
 footer {
-  background-color: var(--darkColor);
+  background-color: #fff;
   display: flex;
-  height: 10vh;
   justify-content: center;
   align-items: center;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+footer img {
+  margin: 2em;
+  width: 6%;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+footer div h3 {
+  color: var(--darkColor);
+  font-size: 1.5em;
+}
+
+footer div p {
+  color: var(--darkColor);
+  font-size: 1em;
+  width: 40%;
 }
 
 /* header styling */
@@ -150,6 +181,12 @@ footer {
 
 .header ul li {
   padding: 0.5em;
+  font-family: var(--secondFont);
+  color: var(--lightColor);
+}
+
+.header ul li a span {
+  color: var(--orangeColor);
 }
 
 .cover {
@@ -157,7 +194,6 @@ footer {
   position: relative;
   flex-direction: column;
   height: 60vh;
-  padding-left: 1em;
   background-color: rgba(255, 0, 0, 0.13);
 }
 
@@ -264,6 +300,13 @@ footer {
   padding-bottom: 2em;
 }
 
+.main-program-line {
+  width: 10%;
+  background-color: var(--orangeColor);
+  height: 5px;
+  margin: 0 auto;
+}
+
 .programs h2 {
   color: #fff;
   font-family: var(--firstFont);
@@ -343,15 +386,47 @@ footer {
     display: none;
   }
 
+  .contact-nav {
+    display: block;
+    background-color: var(--darkColor);
+  }
+
+  .contact-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.2em;
+  }
+
+  .contact-nav ul li {
+    padding: 0.7em;
+    font-family: var(--secondFont);
+    color: var(--lightColor);
+  }
+
+  .box {
+    display: unset;
+    size: 0.6em;
+    color: var(--orangeColor);
+    border: 5px solid var(--orangeColor);
+    margin: 0.3em;
+    padding: 0.3em;
+  }
+
   .disktop-nav {
     font-family: var(--secondFont);
     color: var(--lightColor);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-size: 1.4em;
     position: relative;
     background: none;
     margin: 0;
+    background-color: #fff;
+  }
+
+  .cover-cont {
+    padding: 0;
   }
 
   .disktop-nav ul {
@@ -359,12 +434,17 @@ footer {
     flex-direction: row;
     font-size: 1em;
     color: var(--darkColor);
-    padding: 1em;
+    padding: 0.3em;
+  }
+
+  .disktop-nav ul li {
+    color: var(--darkColor);
   }
 
   .logo {
-    width: 5%;
-    margin: 0;
+    width: 40%;
+    margin-left: 4em;
+    margin-top: 0.3em;
   }
 
   .close-btn {
@@ -394,6 +474,10 @@ footer {
   .programs ul li {
     flex-direction: column;
     align-items: center;
+  }
+
+  .programs ul li img {
+    width: 50%;
   }
 
   .speakers {
