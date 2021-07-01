@@ -66,7 +66,7 @@ footer h1 {
   text-align: center;
 }
 
-.see-past h1 {
+.see-past h2 {
   font-family: var(--firstFont);
   color: var(--orangeColor);
   font-size: 2.3em;
@@ -82,15 +82,39 @@ footer h1 {
 
 .imgs {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+}
+
+.img-card {
+  background-color: #ec5242;
+  position: relative;
+  margin: 1em;
 }
 
 .imgs img {
-  width: 50%;
-  margin: 0.6em;
-  padding: 0.2em;
+  width: 100%;
+  mix-blend-mode: overlay;
+}
+
+.about-year {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-year h4 {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.about-year p {
+  color: #fff;
+  font-size: 2em;
+  width: 100%;
 }
 
 /* footer */
@@ -106,7 +130,8 @@ footer {
 
 footer img {
   margin: 2em;
-  width: 6%;
+  width: 30%;
+  transform: translateX(0%) translateY(0%);
 }
 
 footer div {
@@ -122,8 +147,6 @@ footer div h3 {
 
 footer div p {
   color: var(--darkColor);
-  font-size: 1em;
-  width: 40%;
 }
 
 /* header styling */
@@ -275,9 +298,14 @@ footer div p {
 
 .speakers h1 {
   font-family: var(--firstFont);
-  color: var(--orangeColor);
-  text-align: center;
+  color: var(--darkColor);
   font-size: 1.6em;
+}
+
+.speakers h2 {
+  font-family: var(--secondFont);
+  color: var(--orangeColor);
+  font-size: 1.2em;
 }
 
 .line {
@@ -288,8 +316,7 @@ footer div p {
 
 .speakers p {
   font-family: var(--secondFont);
-  color: var(--lightColor);
-  text-align: center;
+  color: var(--darkColor);
   font-size: 1.2em;
 }
 
@@ -332,7 +359,7 @@ footer div p {
 
 .speakers {
   padding: 2em;
-  background-color: rgb(85, 80, 80);
+  background-color: #fff;
 }
 
 .programs ul li img {
@@ -442,9 +469,9 @@ footer div p {
   }
 
   .logo {
-    width: 40%;
-    margin-left: 4em;
-    margin-top: 0.3em;
+    width: 23%;
+    margin-left: 2em;
+    margin-top: 0.5em;
   }
 
   .close-btn {
@@ -506,27 +533,27 @@ footer div p {
 
   .see-past p {
     font-size: 1.3em;
-    width: 60%;
+    width: 90%;
     text-align: center;
   }
 
-  .speakers div p {
-    padding: 0.5em;
-  }
-
-  .see-past h1 {
+  .see-past h2 {
     font-size: 3em;
   }
 
   .imgs {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 70%;
   }
 
   .imgs img {
-    width: 50%;
-    margin: 2em;
+    width: 100%;
+  }
+
+  footer img {
+    width: 11%;
   }
 }
