@@ -398,6 +398,10 @@ footer div p {
   cursor: pointer;
 }
 
+.img-about-page-program {
+  width: 20%;
+}
+
 .programs h4:hover {
   background-color: #b1392c;
 }
@@ -479,7 +483,7 @@ footer div p {
   }
 
   .cover {
-    height: 85vh;
+    height: 95vh;
   }
 
   .cover h1 {
@@ -551,6 +555,28 @@ footer div p {
 
   .imgs img {
     width: 100%;
+  }
+
+  .cover-about {
+    text-align: center;
+  }
+  .cover-about h1 {
+    padding: 2em;
+  }
+
+  .cover-about p {
+    margin: 0 auto;
+    text-align: center;
+    margin: 2em 5em;
+  }
+
+  .cover-about h3 {
+    margin: 0 auto;
+  }
+
+  .cover-about h6 {
+    margin: 1em auto;
+    text-align: center;
   }
 
   footer img {
