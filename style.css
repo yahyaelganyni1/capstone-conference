@@ -47,7 +47,7 @@ footer div p {
 }
 
 .about p {
-  color: var(--lightColor);
+  color: var(--darkColor);
   font-size: 1.3em;
   text-align: center;
   margin: 1em;
@@ -119,11 +119,12 @@ footer img {
   color: #fff;
   font-size: 5em;
   font-weight: 600;
+  text-align: center;
 }
 
 .about-year p {
   color: #fff;
-  font-size: 2em;
+  font-size: 0.9em;
   width: 100%;
 }
 
@@ -208,7 +209,7 @@ footer div h3 {
 }
 
 .cover h1 span {
-  font-size: 1.3em;
+  font-size: 2.3em;
 }
 
 .header ul li a span {
@@ -292,7 +293,7 @@ footer div h3 {
   font-family: var(--firstFont);
   font-size: 3em;
   text-align: center;
-  background-color: rgb(85, 80, 80);
+  background-color: #fff;
 }
 
 .speakers h1 {
@@ -322,7 +323,7 @@ footer div h3 {
 /* programs styling */
 
 .programs {
-  background-color: var(--darkColor);
+  background-color: #fff;
   padding-bottom: 2em;
 }
 
@@ -362,7 +363,7 @@ footer div h3 {
 }
 
 .programs ul li img {
-  flex: 1;
+  flex: 2;
 }
 
 .cover-about h3 {
@@ -375,7 +376,8 @@ footer div h3 {
   font-size: 1.6em;
   margin: 0.5em;
   font-weight: 600 !important;
-  flex: 2;
+  flex: 5;
+  flex-shrink: 1;
 }
 
 .cover-about p {
@@ -388,7 +390,7 @@ footer div h3 {
   margin: 0.2em;
   flex: 4;
   font-size: 0.9em;
-  text-align: center;
+  flex-shrink: 1;
 }
 
 .programs h4 {
@@ -425,6 +427,33 @@ footer div h3 {
 .cover-about h6 {
   margin: 1em auto;
   text-align: center;
+}
+
+/* partner */
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  background-color: #3d3b3b;
+  align-items: center;
+  padding: 3em;
+}
+
+.partner h2 {
+  font-size: 1em;
+  color: var(--lightColor);
+  font-family: var(--secondFont);
+}
+
+.partner ul {
+  display: flex;
+}
+
+.partner ul li {
+  padding: 0.6em;
+  font-size: 1em;
+  color: var(--lightColor);
+  font-family: var(--secondFont);
 }
 
 /* disktop */
@@ -586,12 +615,13 @@ footer div h3 {
   }
 
   .cover-about h1 {
-    padding: 2em;
+    padding: 1.5em;
   }
 
   .cover-about p {
     text-align: center;
-    margin: 2em 5em;
+    margin: 1em 8em;
+    padding: 1em;
   }
 
   .cover-about h3 {
@@ -601,5 +631,21 @@ footer div h3 {
   .cover-about h6 {
     margin: 1em auto;
     text-align: center;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    background-color: #3d3b3b;
+    align-items: center;
+    padding: 3em;
+  }
+
+  .partner h2 {
+    font-size: 3em;
+  }
+
+  .partner ul li {
+    font-size: 3em;
   }
 }
