@@ -76,7 +76,7 @@ window.onload = () => {
       speakers[i].imgSrc,
       speakers[i].name,
       speakers[i].description,
-      speakers[i].info
+      speakers[i].info,
     );
   });
 };

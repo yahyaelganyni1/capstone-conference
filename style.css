@@ -207,6 +207,10 @@ footer div h3 {
   color: var(--lightColor);
 }
 
+.cover h1 span {
+  font-size: 1.3em;
+}
+
 .header ul li a span {
   color: var(--orangeColor);
 }
@@ -238,10 +242,6 @@ footer div h3 {
   font-family: var(--firstFont);
   color: var(--orangeColor);
   font-size: 1em;
-}
-
-.cover h1 span {
-  font-size: 1.3em;
 }
 
 .cover p {
@@ -365,6 +365,10 @@ footer div h3 {
   flex: 1;
 }
 
+.cover-about h3 {
+  margin: 0 auto;
+}
+
 .programs ul li h3 {
   color: var(--orangeColor);
   font-family: var(--secondFont);
@@ -408,18 +412,14 @@ footer div h3 {
 .cover-about {
   text-align: center;
 }
+
 .cover-about h1 {
   padding: 2em;
 }
 
 .cover-about p {
-  margin: 0 auto;
   text-align: center;
   margin: 1em 2em;
-}
-
-.cover-about h3 {
-  margin: 0 auto;
 }
 
 .cover-about h6 {
@@ -457,7 +457,6 @@ footer div h3 {
 
   .box {
     display: unset;
-    size: 0.6em;
     color: var(--orangeColor);
     border: 5px solid var(--orangeColor);
     margin: 0.3em;
@@ -528,12 +527,12 @@ footer div h3 {
     align-items: center;
   }
 
-  .speakers img {
-    width: 40%;
-  }
-
   footer img {
     width: 11%;
+  }
+
+  .speakers img {
+    width: 40%;
   }
 
   .imgs img {
@@ -585,12 +584,12 @@ footer div h3 {
   .cover-about {
     text-align: center;
   }
+
   .cover-about h1 {
     padding: 2em;
   }
 
   .cover-about p {
-    margin: 0 auto;
     text-align: center;
     margin: 2em 5em;
   }
