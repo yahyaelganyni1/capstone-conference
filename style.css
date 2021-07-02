@@ -33,6 +33,10 @@ ul {
   display: none;
 }
 
+.speakers div {
+  display: flex;
+}
+
 /* about page  */
 
 .about {
@@ -284,8 +288,10 @@ footer div h3 {
 /* speakers */
 
 .speakers img {
-  width: 100%;
-  padding: 2em;
+  width: 40%;
+  height: 76%;
+  padding: 0.5em;
+  flex: 1;
 }
 
 .speaker-header {
@@ -299,13 +305,13 @@ footer div h3 {
 .speakers h1 {
   font-family: var(--firstFont);
   color: var(--darkColor);
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 .speakers h2 {
   font-family: var(--secondFont);
   color: var(--orangeColor);
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 .line {
@@ -317,7 +323,8 @@ footer div h3 {
 .speakers p {
   font-family: var(--secondFont);
   color: var(--darkColor);
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-top: 0.7em;
 }
 
 /* programs styling */
@@ -358,8 +365,13 @@ footer div h3 {
 }
 
 .speakers {
-  padding: 2em;
+  padding: 0.2em;
   background-color: #fff;
+}
+
+.speaker-name {
+  display: flex;
+  flex-direction: column;
 }
 
 .programs ul li img {
@@ -579,7 +591,7 @@ footer div h3 {
 
   .speakers div {
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: 50%;
   }
 
