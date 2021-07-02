@@ -33,10 +33,6 @@ ul {
   display: none;
 }
 
-.speakers div {
-  display: flex;
-}
-
 /* about page  */
 
 .about {
@@ -312,6 +308,10 @@ footer div h3 {
   font-family: var(--secondFont);
   color: var(--orangeColor);
   font-size: 0.9em;
+}
+
+.speakers div {
+  display: flex;
 }
 
 .line {
