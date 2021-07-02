@@ -342,7 +342,7 @@ footer div h3 {
 }
 
 .programs h2 {
-  color: #fff;
+  color: var(--darkColor);
   font-family: var(--firstFont);
   text-align: center;
   font-size: 1.5em;
