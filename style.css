@@ -149,7 +149,6 @@ footer img {
   font-size: 0.9em;
   width: 100%;
   margin: 0;
-  width: 100%;
 }
 
 /* footer */
@@ -489,7 +488,6 @@ footer div h3 {
 .partner h2 {
   font-size: 1.5em;
   padding-bottom: 0.6em;
-
   color: var(--lightColor);
   font-family: var(--secondFont);
 }
@@ -721,7 +719,6 @@ footer div h3 {
     font-size: 0.9em;
     width: 100%;
     margin: 0;
-    width: 100%;
   }
 
   .see-past-text {
