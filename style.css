@@ -39,11 +39,27 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(90, 90, 90);
+  background-color: #fff;
+  padding: 3em 1em;
+}
+
+.about h2 {
+  font-size: 2em;
+  color: var(--darkColor);
+  font-family: var(--secondFont);
+  margin: 1em;
 }
 
 footer div p {
   color: var(--darkColor);
+}
+
+.line {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 6em;
 }
 
 .about p {
@@ -105,7 +121,7 @@ footer img {
 
 .imgs img {
   width: 100%;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
 }
 
 .about-year {
@@ -253,7 +269,7 @@ footer div h3 {
   font-family: var(--secondFont);
   font-size: 1em;
   color: var(--darkColor);
-  background-color: rgba(255, 255, 255, 0.479);
+  background-color: #fff;
   border-radius: 3px;
 }
 
@@ -261,22 +277,22 @@ footer div h3 {
   position: relative;
   font-family: var(--firstFont);
   font-size: 2em;
-  color: var(--lightColor);
-  background-color: rgba(54, 54, 54, 0.5);
+  color: var(--darkColor);
+  background-color: #fff;
   width: fit-content;
-  margin: 0.4em;
+  margin-top: 1em;
   border-radius: 3px;
   padding: 0.4em;
 }
 
 .cover h6 {
   position: relative;
-  color: var(--lightColor);
+  color: var(--darkColor);
   font-family: var(--secondFont);
   font-size: 1em;
-  background-color: rgba(54, 54, 54, 0.5);
+  background-color: #fff;
   width: fit-content;
-  margin: 0.4em;
+  margin-top: 0.9em;
   border-radius: 3px;
   padding: 0.4em;
 }
@@ -285,9 +301,7 @@ footer div h3 {
 
 .speakers img {
   width: 40%;
-  height: 76%;
   padding: 0.5em;
-  flex: 1;
 }
 
 .speaker-header {
@@ -301,13 +315,13 @@ footer div h3 {
 .speakers h1 {
   font-family: var(--firstFont);
   color: var(--darkColor);
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .speakers h2 {
   font-family: var(--secondFont);
   color: var(--orangeColor);
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 .speakers div {
@@ -323,14 +337,14 @@ footer div h3 {
 .speakers p {
   font-family: var(--secondFont);
   color: var(--darkColor);
-  font-size: 1em;
+  font-size: 1.6em;
   margin-top: 0.7em;
 }
 
 /* programs styling */
 
 .programs {
-  background-color: #fff;
+  background-color: rgb(53, 53, 53);
   padding-bottom: 2em;
 }
 
@@ -342,7 +356,7 @@ footer div h3 {
 }
 
 .programs h2 {
-  color: var(--darkColor);
+  color: var(--lightColor);
   font-family: var(--firstFont);
   text-align: center;
   font-size: 1.5em;
@@ -359,13 +373,15 @@ footer div h3 {
   display: flex;
   align-items: center;
   margin: 1em;
-  background: rgba(255, 255, 255, 0.068);
+  background: rgba(0, 0, 0, 0.199);
   padding: 1em;
   flex: 1;
 }
 
 .speakers {
-  padding: 0.2em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0em;
   background-color: #fff;
 }
 
@@ -388,7 +404,6 @@ footer div h3 {
   font-size: 1.6em;
   margin: 0.5em;
   font-weight: 600 !important;
-  flex: 5;
   flex-shrink: 1;
 }
 
@@ -398,10 +413,12 @@ footer div h3 {
 }
 
 .programs ul li p {
-  color: #fff;
+  color: var(--lightColor);
   margin: 0.2em;
   flex: 4;
-  font-size: 0.9em;
+  text-align: center;
+  width: 90%;
+  font-size: 1.2em;
   flex-shrink: 1;
 }
 
@@ -518,7 +535,7 @@ footer div h3 {
   }
 
   .cover-cont {
-    padding: 0;
+    padding: 6em 12em;
   }
 
   .disktop-nav ul {
@@ -548,7 +565,7 @@ footer div h3 {
   }
 
   .cover h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .cover p {
@@ -561,11 +578,13 @@ footer div h3 {
 
   .programs ul {
     flex-direction: row;
+    margin: 4em;
   }
 
   .programs ul li {
     flex-direction: column;
     align-items: center;
+    margin: 0.2em;
   }
 
   footer img {
@@ -573,7 +592,7 @@ footer div h3 {
   }
 
   .speakers img {
-    width: 40%;
+    width: 20%;
   }
 
   .imgs img {
@@ -582,26 +601,36 @@ footer div h3 {
 
   .programs ul li img {
     width: 50%;
+    width: 40%;
+    padding: 1.5em;
   }
 
   .speakers {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    padding: 2em 5em;
+    background-color: #fff;
   }
 
   .speakers div {
     display: flex;
     justify-content: center;
-    width: 50%;
   }
 
   .speakers div div {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    flex: 6;
   }
 
   .about p {
-    width: 40%;
+    width: 70%;
+  }
+
+  .img-about-page-program {
+    width: 15%;
   }
 
   .see-past p {
@@ -620,6 +649,7 @@ footer div h3 {
     align-items: center;
     justify-content: center;
     width: 70%;
+    margin: 3em;
   }
 
   .cover-about {
@@ -627,7 +657,8 @@ footer div h3 {
   }
 
   .cover-about h1 {
-    padding: 1.5em;
+    padding: 0.5em;
+    font-size: 3.7em;
   }
 
   .cover-about p {
@@ -659,5 +690,9 @@ footer div h3 {
 
   .partner ul li {
     font-size: 3em;
+  }
+
+  .see-past-text {
+    text-align: center;
   }
 }
