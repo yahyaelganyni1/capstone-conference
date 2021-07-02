@@ -131,6 +131,10 @@ footer img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-year h4 {
@@ -143,6 +147,8 @@ footer img {
 .about-year p {
   color: #fff;
   font-size: 0.9em;
+  width: 100%;
+  margin: 0;
   width: 100%;
 }
 
@@ -256,6 +262,10 @@ footer div h3 {
   background-size: cover;
 }
 
+.cover-cont {
+  padding-left: 1.4em;
+}
+
 .cover h1 {
   position: relative;
   font-family: var(--firstFont);
@@ -278,7 +288,7 @@ footer div h3 {
 .cover h3 {
   position: relative;
   font-family: var(--firstFont);
-  font-size: 2em;
+  font-size: 0.7em;
   color: var(--darkColor);
   background-color: #fff;
   width: fit-content;
@@ -303,7 +313,7 @@ footer div h3 {
 
 .speakers img {
   width: 40%;
-  padding: 0.5em;
+  padding: 0 1em 1em 0;
 }
 
 .speaker-header {
@@ -311,6 +321,7 @@ footer div h3 {
   font-family: var(--firstFont);
   font-size: 3em;
   text-align: center;
+  padding-top: 1em;
   background-color: #fff;
 }
 
@@ -318,6 +329,7 @@ footer div h3 {
   font-family: var(--firstFont);
   color: var(--darkColor);
   font-size: 1em;
+  font-weight: 600;
 }
 
 .speakers h2 {
@@ -398,6 +410,7 @@ footer div h3 {
 
 .cover-about h3 {
   margin: 0 auto;
+  font-size: 0.8em;
 }
 
 .programs ul li h3 {
@@ -411,7 +424,7 @@ footer div h3 {
 
 .cover-about p {
   text-align: center;
-  margin: 1em 2em;
+  margin: 0.5em 2em;
 }
 
 .programs ul li p {
@@ -454,7 +467,8 @@ footer div h3 {
 }
 
 .cover-about h1 {
-  padding: 2em;
+  padding: 0 0 1em 0;
+  font-size: 1.5em;
 }
 
 .cover-about h6 {
@@ -474,6 +488,8 @@ footer div h3 {
 
 .partner h2 {
   font-size: 1.5em;
+  padding-bottom: 0.6em;
+
   color: var(--lightColor);
   font-family: var(--secondFont);
 }
@@ -540,7 +556,7 @@ footer div h3 {
   }
 
   .cover-cont {
-    padding: 6em 12em;
+    padding: 2em 4em 2em 8em;
   }
 
   .disktop-nav ul {
@@ -598,6 +614,7 @@ footer div h3 {
 
   .speakers img {
     width: 20%;
+    padding: 0 1em 1em 0;
   }
 
   .imgs img {
@@ -697,6 +714,14 @@ footer div h3 {
 
   .partner ul li {
     font-size: 3em;
+  }
+
+  .about-year p {
+    color: #fff;
+    font-size: 0.9em;
+    width: 100%;
+    margin: 0;
+    width: 100%;
   }
 
   .see-past-text {
