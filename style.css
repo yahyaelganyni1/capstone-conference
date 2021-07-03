@@ -289,7 +289,7 @@ footer div h3 {
   color: var(--darkColor);
   background-color: #fff;
   width: fit-content;
-  margin-top: .4em;
+  margin-top: 0.4em;
   border-radius: 3px;
   padding: 0.4em;
 }
@@ -683,7 +683,7 @@ footer div h3 {
 
   .cover-about p {
     text-align: center;
-    margin: .5em auto;
+    margin: 0.5em auto;
     padding: 1em;
   }
 
