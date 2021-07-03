@@ -427,7 +427,6 @@ footer div h3 {
 .programs ul li p {
   color: var(--lightColor);
   margin: 0.2em;
-  flex: 4;
   text-align: center;
   width: 90%;
   font-size: 1.2em;
