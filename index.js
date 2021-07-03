@@ -26,7 +26,7 @@ window.onload = () => {
       info: 'William Henry Gates III is an American business magnate, software',
     },
     {
-      imgSrc: './imges/elon-musk-img.jfif',
+      imgSrc: './imges/elon_musk-img',
       name: 'Elon Musk',
       description: 'William Henry Gates III is an American',
       info: 'Elon Reeve Musk FRS is an entrepreneur and business magnate. He ',
@@ -79,7 +79,7 @@ window.onload = () => {
       speakers[i].imgSrc,
       speakers[i].name,
       speakers[i].description,
-      speakers[i].info,
+      speakers[i].info
     );
   });
 };
