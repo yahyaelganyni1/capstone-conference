@@ -289,7 +289,7 @@ footer div h3 {
   color: var(--darkColor);
   background-color: #fff;
   width: fit-content;
-  margin-top: 1em;
+  margin-top: .4em;
   border-radius: 3px;
   padding: 0.4em;
 }
