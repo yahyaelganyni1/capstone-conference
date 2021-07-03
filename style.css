@@ -230,7 +230,7 @@ footer div h3 {
 }
 
 .cover h1 span {
-  font-size: 1.9em;
+  font-size: 1.5em;
 }
 
 .header ul li a span {
@@ -577,7 +577,7 @@ footer div h3 {
   }
 
   .cover {
-    height: 95vh;
+    height: 100vh;
   }
 
   .cover h1 {
